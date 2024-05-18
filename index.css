@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+*::selection {
+  color: #000000;
+  background-color: #007a6e;
+}
+body{
+  background: linear-gradient(110deg, #000000, #007a6e);
+  max-width: 100vw;
+  min-height: 200vh;
+  color: white;
+}
+header{
+  margin: 2vh 4vw;
+}
+.logo img{
+  width: 14vh;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu{
+  display: flex;
+  gap: 8vh;
+}
+.menu li{
+    list-style-type: none;
+    font-size: 2vw;
+}
+.hero{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero1{
+  max-width: 1200px;
+  margin: 2vh 4vw;
+}
+.hero1 h1{
+  font-size: 10vw;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+.hero2{
+  margin: 2vh 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.hero2 p{
+  font-size: 1.8vw;
+  max-width: 500px;
+  margin: 0 4vw;
+}
+button{
+  background-color: #007a6e;
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin: 1vh auto;
+  font-size: 1.3vw;
+}
+.videos{
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  max-width: 100vw;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  margin: 2vh 4vw;
+}
+.video-container{
+  width: 560px;
+  height: 720px;
+}
+.videos .vid1{
+  width: 560px;
+  height: 720px;
+}
+.videos .vid4{
+  width: 560px;
+  height: 720px;
+  margin-left: 16vw;
+  margin-top: -48vh;
+}
+.videos .vid2{
+  width: 720px;
+  height: 360px;
+  object-fit: cover;
+}
+.videos .vid3{
+  width: 720px;
+  height: 360px;
+  object-fit: cover;
+  margin-left: 5vw;
+}
+
